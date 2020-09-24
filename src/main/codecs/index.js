@@ -1,7 +1,7 @@
-import lzma from 'main/codecs/lzma';
-import lzstring from 'main/codecs/lzstring';
-import lzw from 'main/codecs/lzw';
-import pack from 'main/codecs/pack';
+import lzma from './lzma.js';
+import lzstring from './lzstring.js';
+import lzw from './lzw.js';
+import pack from './pack.js';
 
 export default {
 	lzma, lzstring, lzw, pack

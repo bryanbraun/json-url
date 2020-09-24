@@ -1,5 +1,5 @@
-import ALGORITHMS from 'main/codecs';
-import LOADERS from 'main/loaders';
+import ALGORITHMS from './codecs/index.js';
+import LOADERS from './loaders.js';
 
 const twoDigitPercentage = val => Math.floor(val * 10000) / 10000;
 

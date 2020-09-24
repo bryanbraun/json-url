@@ -1,4 +1,4 @@
-import LOADERS from 'main/loaders';
+import LOADERS from '../loaders.js';
 
 export default {
 	pack: false,
